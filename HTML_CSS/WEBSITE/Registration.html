@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>USER REGISTRATION FORM</title>
+<style>
+	body {background-colour:#cccccc}
+	h4{color:green;
+	font-family:elephant;}
+
+	h4.heading2{
+	color:red;
+	font-family:Algerian}
+	<!--or
+	#.heading2{
+	color:red;
+	font-family:Algerian}
+	-->
+
+</style>
+</head>
+
+<body>
+<h4>USER REGISTRATION</h4>
+<h4 class="heading2">USER REGISTRATION</h4>
+<!--or	
+<h4 id= # >USER REGISTRATION</h4>-->
+<br />
+<form>
+<fieldset>
+<legend><i>Personal Information</i></legend><br />
+
+<label>First Name:</label>
+<input type="text"> </input><br />
+<br />
+
+<label>Surname:</label>
+<input type="text"></input><br />
+<br />
+<br />
+<label> Password:</label>
+<input type="Password" placeholder="********"> </input>
+<br />
+<br />
+
+<label>Sex:</label><br />
+<input type="radio" name="gender" value="Male" checked> Male<br />
+<input type="radio" name="gender" value="Female" > Female<br />
+<br />
+<br />
+
+<label> Email:</label>
+<input type="Email" placeholder=".....@gmail.com"> </input>
+<br />
+<br />
+
+<label><b>STATE OF ORIGIN: <b/></label>
+
+<select name = "State of Origin: ">
+<option value="">Select</option>
+<option value="Anambra">Anambra</option>
+<option value="Cross River">Cross River</option>
+<option value="Ebonyi">Ebonyi</option>
+<option value="Enugu">Enugu</option>
+<option value="Imo">Imo</option>
+</select>
+<br />
+<br />
+
+<label>Select Packages:</label><br />
+<input type="checkbox" name="vehicle1" value="java">
+<label>JAVA</label><br /><br />
+<input type="checkbox" name="vehicle1" value="HTML">
+<label>HTML</label><br />
+<br />
+<br />
+
+<label><b>Description :<b/></label><br />
+<textarea name="message" rows = "20" cols= "50">
+</textarea><br />
+<input type="submit" value="SUBMIT"><br />
+<br />
+<!--<button type = "button">SUBMIT</button>-->
+<input type="reset" value="RESET">
+
+</fieldset>
+
+</form>
+</body>
+</html>
